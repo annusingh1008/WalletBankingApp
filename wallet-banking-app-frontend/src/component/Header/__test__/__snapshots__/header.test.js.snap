@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders properly 1`] = `
+<div
+  data-testid="BrowserRouter"
+>
+  <div
+    data-testid="Navbar"
+  >
+    <div
+      data-testid="Container"
+    >
+      <div
+        data-testid="link"
+      >
+        Wallet Banking
+      </div>
+    </div>
+    <div
+      data-testid="Toggle"
+    />
+    <div
+      data-testid="Collapse"
+    >
+      <div
+        data-tesid="Nav"
+      >
+        <li
+          class="nav-item"
+        >
+          <span
+            class="nav-link"
+            data-tesid="signout-btn"
+          >
+            Signout
+          </span>
+        </li>
+      </div>
+    </div>
+  </div>
+</div>
+`;

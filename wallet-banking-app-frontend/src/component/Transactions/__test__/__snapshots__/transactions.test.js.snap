@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions renders properly 1`] = `
+<div
+  data-testid="Layout"
+>
+  <table
+    data-testid="Table"
+  >
+    <thead
+      class="text-center"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          #
+        </th>
+        <th
+          scope="col"
+        >
+          From
+        </th>
+        <th
+          scope="col"
+        >
+          To
+        </th>
+        <th
+          scope="col"
+        >
+          Credit/ Debit
+        </th>
+        <th
+          scope="col"
+        >
+          Amount
+        </th>
+        <th
+          scope="col"
+        >
+          Current Amount
+        </th>
+        <th
+          scope="col"
+        >
+          Transaction Date
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="text-center"
+    >
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          Bank
+        </td>
+        <td>
+          Annu Singh
+        </td>
+        <td>
+          Credit
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          04/10/2022, 16:50:10
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Bank
+        </td>
+        <td>
+          Annu Singh
+        </td>
+        <td>
+          Credit
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          04/10/2022, 16:50:10
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3
+        </td>
+        <td>
+          Bank
+        </td>
+        <td>
+          Annu Singh
+        </td>
+        <td>
+          Credit
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          04/10/2022, 16:50:10
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    data-testid="Footer"
+  >
+    <div
+      style="margin-left: 450px;"
+    >
+      Showing Page 
+      1
+       of 
+      1
+    </div>
+    <div
+      style="margin-left: 430px;"
+    >
+      <div
+        data-tesid="InputGroup"
+      >
+        <button
+          data-testid="Button-first"
+        >
+          First
+        </button>
+        <button
+          data-testid="Button-prev"
+        >
+          Prev
+        </button>
+        <button
+          data-testid="Button-next"
+        >
+          Next
+        </button>
+        <button
+          data-testid="Button-last"
+        >
+          Last
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletRecharge renders properly 1`] = `
+<div
+  data-testid="layout"
+>
+  <div
+    data-tesid="container"
+  >
+    <div
+      data-testid="row"
+    >
+      <div
+        data-testid="col"
+      >
+        <div
+          class="heading"
+        >
+          Wallet Recharge
+        </div>
+        <div
+          data-testid="form"
+        >
+          <label>
+            Amount
+          </label>
+          <br />
+          <input
+            data-testid="amountInputBox"
+            placeholder="1000"
+            required=""
+            type="number"
+            value=""
+          />
+          <br />
+          <div
+            data-testid="transferAmountButton"
+          >
+            Recharge
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

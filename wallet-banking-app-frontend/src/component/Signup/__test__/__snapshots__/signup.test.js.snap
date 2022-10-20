@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup When clicks on first button dispatches proper action 1`] = `
+<div
+  data-testid="Layout"
+>
+  <div
+    class="container"
+    style="margin-top: 110px;"
+  >
+    <div
+      class="row"
+      style="margin-left: 18%;"
+    >
+      <div
+        class="col"
+      >
+        <form
+          class=""
+          data-testid="submit-form"
+        >
+          <label>
+            First Name
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputFirstName"
+            placeholder="First Name"
+            required=""
+            type="text"
+            value="Annu"
+          />
+          <br />
+          <label
+            class="label"
+          >
+            Last Name
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputLastName"
+            placeholder="Last Name"
+            required=""
+            type="text"
+            value="Singh"
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Email
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputEmail"
+            placeholder="Email"
+            required=""
+            type="email"
+            value="annu@gmail.com"
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Password
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputPassword"
+            minlength="8"
+            placeholder="Password"
+            required=""
+            type="password"
+            value="1234"
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Confirm Password
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputConfirmPassword"
+            minlength="8"
+            placeholder="Confirm Password"
+            required=""
+            type="password"
+            value="abcdefgh"
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Mobile Number
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputMobileNumber"
+            maxlength="10"
+            minlength="10"
+            placeholder="Mobile Number"
+            required=""
+            type="text"
+            value="1234567890"
+          />
+          <br />
+          <button
+            class="btn btn btn-primary"
+            data-testid="submit-btn"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Signup renders properly 1`] = `
+<div
+  data-testid="Layout"
+>
+  <div
+    class="container"
+    style="margin-top: 110px;"
+  >
+    <div
+      class="row"
+      style="margin-left: 18%;"
+    >
+      <div
+        class="col"
+      >
+        <form
+          class=""
+          data-testid="submit-form"
+        >
+          <label>
+            First Name
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputFirstName"
+            placeholder="First Name"
+            required=""
+            type="text"
+            value=""
+          />
+          <br />
+          <label
+            class="label"
+          >
+            Last Name
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputLastName"
+            placeholder="Last Name"
+            required=""
+            type="text"
+            value=""
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Email
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputEmail"
+            placeholder="Email"
+            required=""
+            type="email"
+            value=""
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Password
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputPassword"
+            minlength="8"
+            placeholder="Password"
+            required=""
+            type="password"
+            value=""
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Confirm Password
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputConfirmPassword"
+            minlength="8"
+            placeholder="Confirm Password"
+            required=""
+            type="password"
+            value=""
+          />
+           
+          <br />
+          <label
+            class="label"
+          >
+            Mobile Number
+          </label>
+          <br />
+          <input
+            class="input"
+            data-testid="inputMobileNumber"
+            maxlength="10"
+            minlength="10"
+            placeholder="Mobile Number"
+            required=""
+            type="text"
+            value=""
+          />
+          <br />
+          <button
+            class="btn btn btn-primary"
+            data-testid="submit-btn"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

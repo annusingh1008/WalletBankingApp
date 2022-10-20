@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cashback renders properly 1`] = `
+<div
+  data-testid="Layout"
+>
+  <table
+    data-testid="Table"
+  >
+    <thead
+      class="text-center"
+    >
+      <tr>
+        <th>
+          #
+        </th>
+        <th>
+          Cashback Earned
+        </th>
+        <th>
+          Current Amount
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="text-center"
+    >
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          16000
+        </td>
+        <td>
+          07/10/2022, 20:47:02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          16000
+        </td>
+        <td>
+          07/10/2022, 20:47:02
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3
+        </td>
+        <td>
+          1000
+        </td>
+        <td>
+          16000
+        </td>
+        <td>
+          07/10/2022, 20:47:02
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    data-testid="Footer"
+  >
+    <div
+      style="margin-left: 450px;"
+    >
+      Showing Page 
+      1
+       of 
+      1
+    </div>
+    <div
+      style="margin-left: 430px;"
+    >
+      <div
+        data-tesid="InputGroup"
+      >
+        <button
+          data-testid="Button-first"
+        >
+          First
+        </button>
+        <button
+          data-testid="Button-prev"
+        >
+          Prev
+        </button>
+        <button
+          data-testid="Button-next"
+        >
+          Next
+        </button>
+        <button
+          data-testid="Button-last"
+        >
+          Last
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
